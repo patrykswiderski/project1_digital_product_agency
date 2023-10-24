@@ -8,7 +8,7 @@
   <title>A+ Studio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&family=Montserrat:wght@700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&family=Montserrat:wght@500&family=Didact+Gothic&display=swap"
     rel="stylesheet" />
   <!-- I changed the fonts types to their replacements available on google fonts -->
 
@@ -17,12 +17,15 @@
 </head>
 
 <body>
-
+    
   <header>
     <div class="wrapper">
       <nav>
-        <div class="logo">A+ Studio</div>
-
+        <div class="logo">
+          <div class="logo__name">A+</div>
+          <div>&nbspStudio</div> 
+        </div>
+        
         <ul>
           <li>
             <a href="#">Home</a>
@@ -44,9 +47,11 @@
           </li>
         </ul>
       </nav>
+    </div>
 
       <!-- End of desktop navigation menu -->
 
+    <div class="wrapper">
       <div class="hero">
         <div class="hero-left">
           <h1>
@@ -54,24 +59,21 @@
           </h1>
 
           <p>
-            Leading digital agency with solid design and development expertise. We build readymade websites, mobile
-            applications, and elaborate online business services.
+            Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business  services. 
           </p>
 
-          <a href="#" class="hero-left__btn">Contact Now</a>
+          <a href="#" class="hero-left__btn btn">Contact Now</a>
 
-          <div class="hero-left__dot-ornament">
-            <img src="images/Dot.svg" alt="">
-            <img src="images/Dot.svg" alt="">
-          </div>
-        </div>
+          <img src="images/Dot.svg" alt="" class="hero-left__ornament--first">
+          <img src="images/Dot.svg" alt="" class="hero-left__ornament--second">          
+        </div>      
 
         <div class="hero-right">
           <img src="images/image 8.png" alt="" class="hero-right__img">
           <div class="hero-right__ellipse"></div>
           <div class="hero-right__rectangle"></div>
-
-        </div>
+        </div>        
+        
       </div>
     </div>
   </header>

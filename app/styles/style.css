@@ -1,3 +1,136 @@
 font-family: 'Gothic A1', sans-serif;
 
 font-family: 'Montserrat', sans-serif;
+
+font-family: 'Didact Gothic', sans-serif;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: white;
+  background: #2639ED;
+  padding: 20px 40px;
+  border-radius: 60px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+p {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 42px 120px 40px 120px;
+}
+
+nav .logo {
+  display: flex;
+  align-items: baseline;
+  font-size: 27.15px;
+}
+
+nav .logo__name {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  width: 1372px;
+  height: 608px;
+  margin-left: 68px;
+
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+  width: 471px;
+  height: 265px;
+  margin: 123px auto auto 52px;
+  position: relative;
+}
+
+.hero-left__ornament--first {
+  position: absolute;
+  z-index: -1;
+  left: -53px;
+  bottom: -119px;
+}
+
+.hero-left__ornament--second {
+  position: absolute;
+  z-index: -1;
+  left: 156px;
+  bottom: -119px;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  position: relative;
+}
+
+.hero-right__ellipse {
+  position: absolute;
+  background-color: #DAE9FF;
+  width: 129px;
+  height: 129px;
+  border-radius: 100%;
+  left: -65px;
+  top: 0px;
+  z-index: -1;
+}
+
+.hero-right__rectangle {
+  position: absolute;
+  background-color: #FFF5DB;
+  width: 178px;
+  height: 178px;
+  border-bottom-right-radius: 50%;
+  right: 120px;
+  bottom: -89px;
+  z-index: -1;
+}
