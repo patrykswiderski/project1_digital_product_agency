@@ -39,12 +39,14 @@ p {
   margin: 0;
 }
 
+/* Header Section */
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  margin: 42px 120px 40px 120px;
+  margin: 42px 120px 0 120px;
 }
 
 nav .logo {
@@ -70,13 +72,15 @@ nav ul li a{
   text-decoration: none;
 }
 
+
+/* Hero Section */
 .hero {
   display: flex;
   justify-content: space-between;
   align-items:flex-start;
   width: 1372px;
   height: 608px;
-  margin-left: 68px;
+  margin: 40px 0 0 auto;
 
 }
 
@@ -134,3 +138,50 @@ nav ul li a{
   bottom: -89px;
   z-index: -1;
 }
+
+/* Our Client Section */
+
+.our-client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 124px;
+  margin: 40px 120px 0 120px;
+}
+
+.our-client-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+  width: 336px;
+  height: 124px; 
+  }
+
+.our-client-left p{
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+.our-client-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 201px;
+  position: relative;
+}
+
+.our-client-right img {
+  margin-left: 60px;
+}
+
+.our-client-right__amazon-icon {
+  position: absolute;
+  right: 0px;
+  bottom: -6px;
+}
+
+/* How Can We Help Section */
+
+
