@@ -568,3 +568,86 @@ nav ul li a{
 }
 
 /* Newsletter Section */
+
+.newsletter {
+  display: flex;
+  width: 1272px;
+  height: 387px;
+  margin: 92px 86px 0 82px;
+  position: relative;
+}
+
+.newsletter__box-rectangle {
+  width: 178px;
+  height: 178px;
+  background-color: #FFF5DB;
+  border-bottom-left-radius: 50%;
+  left: 0;
+  bottom: 0;
+}
+
+.newsletter__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1197px;
+  height: 292px;
+  background-color: #F4F9FF;
+  border-radius: 75px;
+  margin: 56px 37px 39px 38px;
+}
+
+.newsletter__ornament-dots {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.newsletter__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 540px;
+  height: 95px;
+  margin-left: 92px;
+}
+
+.newsletter__right {
+  display: flex;
+  align-items: center;
+  width: 543px;
+  height: 292px;
+  background-image: url("../images/Rectangle 31.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.newsletter__right-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 479px;
+  height: 80px;
+  border: 1px solid #FFFFFF;
+  border-radius: 60px;
+  box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+  margin: auto 98px auto -34px;
+}
+
+.newsletter__right-contact input{
+  width: 200px;
+  height: 20px;
+  margin-left: 34px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #959595;
+  font-size: 16px;
+  padding: 0;
+}
+
+.newsletter__right-contact-btn {
+  margin-right: 10px;
+}
+
