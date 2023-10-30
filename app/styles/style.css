@@ -388,42 +388,50 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
-  height: 436px;
-  margin: 146px 120px 0 120px ;
+  width: 100%;
+  max-width: 1200px;
+  height: 372px;
+  padding: 146px 120px 0 120px;
 }
 
 .great-since-left {
-  margin: 0 auto auto 0;
+  max-width: 49.2%;
+  height: auto;
+  margin-top: 0;
   position: relative;
 }
 
 .great-since-left__img {
-  width: 550px;
+  display: block;
+  max-width: 93%;
   border-radius: 32px;
   box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
 }
 
 .great-since-left__btn{
-  background-color: none;
+  background-color: transparent;
   border: none;
   position: absolute;
-  left: 236px;
-  top: 140px;
+  left: 40.5%;
+  top: 38.4%;
   z-index: 1;
   cursor: pointer;
 }
 
 .great-since-left__btn-img {
-  width: 78px;
+  display: block;
+  max-width: 100%;
 }
 
 .great-since-left__ellipse {
-  width: 129px;
-  height: 129px;
+  width: 22%;
+  max-width: 129px;
+  height: 36%;
+  max-height: 129px;
   border-radius: 100%;
   background-color: #FFF5DB;
-  margin: -54px auto auto 462px;
+  left: 78.4%;
+  top: 84%;
   z-index: -1;
 }
 
@@ -431,18 +439,22 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 532px;
-  height: 232px;
+  width: 45%;
+  max-width: 532px;
+  height: 54%;
+  max-height: 232px;
   position: relative;
 }
 
 .great-since-right__rectangle {
-  width: 178px;
-  height: 178px;
+  width: 34%;
+  max-width: 178px;
+  height: 77%;
+  max-height: 178px;
   border-bottom-right-radius: 100px;
   background-color: #EFF1FF;
-  left: -39px;
-  top: -24px;
+  left: -7.4%;
+  top: -10.5%;
   z-index: -1;
 }
 
@@ -453,9 +465,11 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 1264px;
+  width: 100%;
+  max-width: 1264px;
   height: 597px;
-  margin: 117px 69px 0 107px ;
+  padding: 180px 69px 0 107px;
+  box-sizing: border-box;
 }
 
 .happy-client__title {
@@ -464,7 +478,6 @@ nav {
   justify-content: space-between;
   height: 95px;
   text-align: center;
-  
 }
 
 .happy-client-bottom {
