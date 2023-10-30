@@ -683,13 +683,17 @@ nav {
 
 .newsletter__right-contact input{
   width: 200px;
-  height: 20px;
+  height: 100%;
   margin-left: 34px;
   background-color: #FFFFFF;
   border: none;
   color: #959595;
   font-size: 16px;
   padding: 0;
+}
+
+.newsletter__right-contact input:focus{
+  outline: none;
 }
 
 .newsletter__right-contact-btn {
@@ -747,6 +751,7 @@ footer {
 
 .footer__left-social img{
   margin-right: 16px;
+  cursor: pointer;
 }
 
 .footer__right {
